@@ -5,3 +5,8 @@ Makefile.in
 /install-sh
 /missing
 /configure
+*.o
+.deps
+Makefile
+config.log
+config.status
