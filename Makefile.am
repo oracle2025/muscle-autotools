@@ -2,6 +2,8 @@ bin_PROGRAMS = muscled
 
 AM_CPPFLAGS = -DMUSCLE_SINGLE_THREAD_ONLY
 
+ACLOCAL_AMFLAGS = -I m4
+
 muscled_SOURCES = server/muscled.cpp
 muscled_LDADD = libmuscle.la
 
