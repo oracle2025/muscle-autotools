@@ -14,3 +14,6 @@ config.guess
 config.sub
 ltmain.sh
 m4
+*.lo
+libtool
+muscle.pc
